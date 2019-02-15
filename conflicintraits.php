@@ -1,7 +1,6 @@
 <?php 
 
-/*In trait overriding first class will preference to its own class function after that trait function then to
-base class*/
+/*In trait if we use two function with same name it will give error then we can use following method to overcome that problem */
 
 trait t1
 {
