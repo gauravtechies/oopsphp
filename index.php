@@ -44,7 +44,7 @@
 
 $smartAC= new SmartAC("Daikin",22);
 echo $smartAC->model;
-echo $smartAC->spped;
+echo $smartAC->speed;
 echo $smartAC->wifi;
 
 ?>
