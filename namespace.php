@@ -11,6 +11,8 @@ functions/classes/interfaces/constant functions in the separate namespace withou
 
  /* outside the namespace we can't access the object, we need the another namespace 
  and we have write the namespace on the top of the file */
+
+ // We can also  use namespacing without brackets;
 namespace MyNamspaceName { 
     class xyz{
 
@@ -26,8 +28,8 @@ namespace MyNamspaceName {
         } 
 
     } 
-	// Regular PHP code 
-	
+    
+
 } 
 
 
@@ -43,9 +45,10 @@ namespace {
     // we can also call name by use 
         use MyNamspaceName\xyz as demo; 
         $obj2= new demo();  //Firstmethod to call 
-
-    $obj1=new MyNamspaceName\xyz;  //second method This is how we call namespace 
-    $obj1->hello();
+        
+        $obj1=new MyNamspaceName\xyz;  //second method This is how we call namespace 
+        $obj1->hello();	
+   
 } 
 
 
