@@ -1,5 +1,5 @@
 <?php 
-namespace herirachy\MyNamspaceName{
+namespace herirachy\MyNamspaceName;
 
 
     class xyz{
@@ -13,11 +13,11 @@ namespace herirachy\MyNamspaceName{
             echo 'Hello I am function and running from a namespace!'; 
         } 
 
-    } 
+    
 	
-
+    }
     use herirachy\MyNamspaceName\xyz;
     $obj=new xyz();
-}
+
 
 
