@@ -1,5 +1,6 @@
 <?php 
-
+/*Dependency injection is design pattern, its new way to avoid extend  ek class ka object banakar doosri class mein
+pass karne ko bolte hai dependency injection*/
 //oops dependency injection 
 class logger{
     public function log($message){
